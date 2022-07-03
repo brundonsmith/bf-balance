@@ -41,12 +41,10 @@ button {
 
 .row {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 40px;
-}
-
-.row>button:not(:first-child) {
-    margin-left: 50px;
+    width: 100%;
+    max-width: 600px;
 }
 
 .positive>button {
